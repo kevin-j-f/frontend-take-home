@@ -11,6 +11,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <button
+        className={'error-btn'}
+        type={'button'}
+        onClick={() => setError(true)}>
+        Trigger Error
+      </button>
       <SearchForm 
         loading={loading}
         setError={setError}

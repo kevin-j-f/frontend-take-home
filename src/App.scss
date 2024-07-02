@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.error-btn {
+  position: fixed;
+  top: 4px;
+  right: 4px;
+  background-color: #d32f2f;
+  color: #fff;
+  opacity: 0.4;
+}

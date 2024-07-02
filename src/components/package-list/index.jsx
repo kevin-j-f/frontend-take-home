@@ -22,7 +22,8 @@ const PackageList = ({ error, loading, packages }) => {
 						links={p.package.links}
 						name={p.package.name}
 						publisher={p.package.publisher}
-						version={p.package.version} />
+						version={p.package.version}
+						key={`${p.package.name}-${p.package.date}`} />
 				))
 			}
 		</ul>
