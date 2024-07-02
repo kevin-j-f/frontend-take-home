@@ -1,0 +1,28 @@
+.search-form {
+	align-items: center;
+	border-bottom: solid grey 1px;
+	display: flex;
+	justify-content: center;
+	padding: 32px 0;
+	width: 100%;
+
+	svg {
+		height: 32px;
+		margin-right: 12px;
+	}
+
+	&__input, &__button {
+		height: 32px;
+	}
+
+	&__input {
+		width: 500px;
+	}
+
+	&__button {
+		background-color: #231f20;
+		border-radius: 0;
+		color: #fff;
+		outline: none;
+	}
+}
